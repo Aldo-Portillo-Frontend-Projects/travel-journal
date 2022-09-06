@@ -5,8 +5,9 @@ import Header from './components/Header'
 function App() {
   return (
     <>
-    <h1>It works!</h1>
     <Header />
+    <Card />
+    <Card />
     <Card />
     </>
     
