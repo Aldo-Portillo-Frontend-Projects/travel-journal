@@ -2,7 +2,10 @@ import React from 'react';
 
 function Header () {
     return (
-        <h1>Header Works</h1>
+        <header>
+            <img src="../assets/worldIcon.png" alt="" />
+            <h1>my travel journal</h1>
+        </header>
     )
 }
 
