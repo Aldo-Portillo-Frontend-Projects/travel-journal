@@ -1,0 +1,13 @@
+header {
+  background-color: #F55A5A;
+  color: #FFFFFF;
+  font-size: 14.46px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  z-index: 100
+}
