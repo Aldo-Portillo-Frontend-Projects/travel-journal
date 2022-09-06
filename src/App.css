@@ -9,5 +9,17 @@ header {
   justify-content: center;
 }
 img{
-  z-index: 100
+  border-radius: 20px;
+}
+
+.card {
+  display: flex;
+}
+
+.location{
+  display: flex;
+}
+.info{
+  display: flex;
+  flex-direction: column;
 }
