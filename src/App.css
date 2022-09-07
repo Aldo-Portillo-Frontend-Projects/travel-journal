@@ -7,19 +7,52 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
-img{
+
+.cardContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px;
+}
+.card > img{
   border-radius: 20px;
+  height: 300px;
 }
 
 .card {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .location{
   display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.location > img {
+  width: 30px;
+  height: 30px
+}
+.location > p > a {
+  color: #918E9B;
 }
 .info{
   display: flex;
   flex-direction: column;
+  width: 80vw;
+  border: 20px;
+}
+
+.info > p {
+  width: 80vw;
+}
+
+.location--image{
+  width: 200px;
 }

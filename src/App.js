@@ -20,8 +20,10 @@ function App() {
   })
   return (
     <>
-    <Header />
-    {cards}
+      <Header />
+      <div className='cardContainer'>
+        {cards}
+      </div>
     </>
     
   );

@@ -3,6 +3,7 @@ import drop from '../assets/drop.png'
 
 export default function Card (props) {
     return (
+        <>
         <div className='card'>
         <img className="location--image" src={props.imageUrl} alt="" />
         <div className="info">
@@ -16,5 +17,7 @@ export default function Card (props) {
             <p>{props.description}</p>
         </div>
         </div>
+        <hr />
+        </>
     )
 }

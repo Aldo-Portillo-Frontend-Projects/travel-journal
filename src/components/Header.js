@@ -1,9 +1,10 @@
 import React from 'react';
+import world from '../assets/worldIcon.png'
 
 function Header () {
     return (
         <header>
-            <img src="../assets/worldIcon.png" alt="" />
+            <img src={world} alt="" />
             <h1>my travel journal</h1>
         </header>
     )
